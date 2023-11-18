@@ -4,7 +4,7 @@ const Footer = () => {
       <h2 className="logo text-2xl font-bold lowercase italic">
         MITIT<span className="text-green-500">food</span>
       </h2>
-      <p>&copy; {new Date().getFullYear()} Bordjiano. Genius, billionaire, playboy, philanthropist.</p>
+      <p>&copy; {new Date().getFullYear()} Bordjiano. Місюра Іван геній, мільярдер, плейбой, філантроп.</p>
     </footer>
   );
 };
