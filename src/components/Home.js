@@ -8,7 +8,7 @@ const Home = ({ recipes, loading, error }) => {
       {!loading && !error && recipes.length === 0 ? (
         <div>
           <p className="text-2xl lg:text-4xl font-semibold">
-            Поле пошуку пусте!
+            Web портал пошуку рецептів для військової їдільні!
           </p>
         </div>
       ) : null}
