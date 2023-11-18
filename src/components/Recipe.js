@@ -21,7 +21,7 @@ const Recipe = ({ recipe }) => {
           to={`/recipe-item/${recipe.id}`}
           className="bg-gradient-to-br from-green-400 to-green-600 text-green-50 p-3 px-8 rounded-lg text-sm uppercase font-medium tracking-wider mt-2 inline-block shadow-md shadow-green-200 hover:shadow-lg hover:shadow-green-300 duration-300"
         >
-          View Recipe
+          Pецепт
         </Link>
       </div>
     </div>

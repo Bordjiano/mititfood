@@ -13,7 +13,7 @@ export const useFetch = (id) => {
           `https://forkify-api.herokuapp.com/api/v2/recipes/${id}`
         );
         if (!res.ok)
-          throw new Error("Something went wrong, please try again later!");
+          throw new Error("Зверніться пізніше!");
         const data = await res.json();
         setData(data?.data?.recipe);
         setLoading(false); // Loading must be false after getting the recipes.
